@@ -46,7 +46,7 @@ def main():
                 continue
 
         elif checkifchargerispluggedin() == True:
-            tkinter.messagebox.showinfo("The power cord is plugged in!")
+            continue 
         elif f.percent <= 50 and checkifchargerispluggedin() == False:
 
 
